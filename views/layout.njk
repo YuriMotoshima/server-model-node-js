@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% block head %}
+            <title>App Pipefy</title>
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        {% endblock %}
+
+        <link rel="stylesheet" href="/styles.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="links">
+                <a class='active' href="/">Pipefy</a>
+            </div>
+        </header>
+
+        {% block content %}{% endblock %}
+
+        <footer>
+            Todos direitos reservados.
+        </footer>
+
+    </body>
+
+</html>
